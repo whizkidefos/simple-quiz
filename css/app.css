@@ -1,0 +1,159 @@
+* {
+  font-family: "Forum", sans-serif;
+  font-size: 20px;
+}
+
+.page-header {
+  background: #e28181;
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+
+.page-header h1,
+.page-header small {
+  color: white;
+}
+
+.prompt {
+  display: block;
+  font-size: 20px;
+}
+
+.quiz-container {
+  margin-top: 30px;
+}
+
+.list-group {
+  border-radius: 0;
+}
+
+.btn {
+  margin: 0 20px 0 20px;
+  border: 5px solid transparent;
+  border-radius: 0 !important;
+}
+
+.btn.active,
+.btn:active,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn:hover {
+  background-color: transparent;
+  border-color: #89d298;
+  color: black;
+}
+
+.btn-custom {
+  background: #e28181;
+  border: 0;
+  color: white;
+  outline: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  transition: 250ms;
+}
+
+.btn-custom:hover {
+  background: #89d298;
+}
+
+.btn-strongly-agree {
+  color: #89d298;
+  font-weight: bold;
+}
+
+.btn-strongly-agree.active,
+.btn-strongly-agree:active,
+.btn-strongly-agree:focus,
+.btn-strongly-agree:active:focus,
+.btn-strongly-agree.active:focus,
+.btn-strongly-agree:hover {
+  background-color: #89d298;
+  color: black;
+  border-color: #89d298;
+}
+
+.btn-agree {
+  color: #89d298;
+}
+
+.btn-agree.active,
+.btn-agree:active,
+.btn-agree:focus,
+.btn-agree:active:focus,
+.btn-agree.active:focus,
+.btn-agree:hover {
+  background-color: rgba(137, 210, 152, 0.5);
+  color: black;
+}
+
+.btn-disagree {
+  color: #e28181;
+}
+
+.btn-disagree.active,
+.btn-disagree:active,
+.btn-disagree:focus,
+.btn-disagree:active:focus,
+.btn-disagree.active:focus,
+.btn-disagree:hover {
+  background-color: rgba(226, 129, 129, 0.5);
+  color: black;
+  border-color: rgba(226, 129, 129, 0.5);
+}
+
+.btn-strongly-disagree {
+  color: #e28181;
+  font-weight: bold;
+}
+
+.btn-strongly-disagree.active,
+.btn-strongly-disagree:active,
+.btn-strongly-disagree:focus,
+.btn-strongly-disagree:active:focus,
+.btn-strongly-disagree.active:focus,
+.btn-strongly-disagree:hover {
+  background-color: #e28181;
+  color: black;
+  border-color: #e28181;
+}
+
+.bottom {
+  margin-bottom: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* RESULTS */
+.results {
+  max-width: 768px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background: #e28181;
+  color: white;
+  margin: 0;
+  padding: 30px 0 20px 0;
+}
+
+footer a {
+  color: black;
+  transition: 250ms;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
